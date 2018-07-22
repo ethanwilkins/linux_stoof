@@ -1,0 +1,101 @@
+# aliases - for awesomel maximized laziness
+
+alias die='sudo shutdown -h 0'
+
+alias bye='exit'
+
+alias kthxbye='bye'
+
+alias aliases='nano ~/.bash_aliases'
+
+alias fresh='source ~/.bashrc && source ~/.bash_profile && cls'
+
+alias clock='while true; do tput clear; date +"%H : %M : %S" | figlet ; sleep 1; done'
+
+alias tarr='tar zxvf'
+
+alias cls='clear'
+
+alias cdcls='cd && cls'
+
+alias lsa='ls -a'
+
+alias cdbio='cd ~/code/processing/biopixels'
+
+alias cdrpg='cd ~/code/processing/rpg/'
+
+alias cdrails='clear && cd ~/code/rails/'
+
+alias anrchy='cdrails && cd anrcho'
+
+alias anrchos='anrchy && rails s'
+
+alias anrcho='ssh root@anrcho.com'
+
+alias simpl='fresh && cdrails && cd simplr'
+
+alias cdlilc='cdrails && cd simplr_forks/simplr'
+
+alias simplr='fresh && source ~/.bash_profile && simpl && rails s'
+
+alias om='ssh root@159.203.130.33'
+
+alias lilc='ssh root@104.236.42.146'
+
+alias railc='fresh && clear && rails c'
+
+alias rakes='fresh && rake db:migrate'
+
+alias migrate='fresh && rails g migration'
+
+alias routes='fresh && rake routes'
+
+alias bun='fresh && bundle install --without production'
+
+alias commit='./bin/bash/commit.sh'
+
+alias co='commit'
+
+alias omco='simpl && co'
+
+alias push='git push'
+
+alias pull='git pull'
+
+alias eh='anrchy && ./bin/bash/fresh.sh'
+
+alias simpleh='simpl && ./bin/bash/fresh.sh'
+
+alias play_log='simpl && ./bin/bash/play_log.sh'
+
+alias processing='/opt/processing-3.3.5/processing'
+
+alias py='clear && python3'
+
+alias rb='ruby'
+
+alias cam='fswebcam -r 640x480 --jpeg 85 -D 1'
+
+alias brainfuck='./opt/brainfuck/build/brainfuck'
+
+alias irb='fresh && clear && irb'
+
+alias orb='irb'
+
+alias js='cls && nodejs'
+
+alias node='js'
+
+alias tron='ssh sshtron.zachlatta.com'
+
+alias parrot='curl parrot.live'
+
+alias sieze='simpl && cat sieze.txt'
+
+alias fish='perl /opt/asciiquarium'
+
+alias tilde='ssh -i ~/.ssh/tilde.town forrest@tilde.town'
+
+alias mine='ethminer -F http://eth-eu.dwarfpool.com/{0x2c9c6baeB1d64D71ba3f43d2b5e5EfEe48A426eF}/{ethanforrestwilkins@gmail.com} --cl-local-work 256 --cl-global-work 16384'
+
+alias did="vim +'normal Go' +'r!date' ~/.did.txt"
