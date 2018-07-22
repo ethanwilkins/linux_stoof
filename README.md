@@ -1,5 +1,5 @@
-## Stuff Relating To *nix
+## Stuff relating to *nix
 
-Contains many aliases for awesomely maximized laziness
+Contains many aliases for bash
 
 Also something to do with ssh
