@@ -1,0 +1,117 @@
+# aliases - for awesomely maximized laziness
+
+alias no_worries='afplay /Users/ethanwilkins/Music/Legend/Bob\ Marley\ -\ Legend\ -\ 04\ -\ Three\ Little\ Birds.mp3'
+
+alias immigrant_song='afplay /Users/ethanwilkins/Music/Led\ Zeppelin\ Discography\ \(iTunes-Rip\)\ \[theLEAK\]/Led\ Zeppelin/Led\ Zeppelin\ III\ \(Remastered\)/01\ Immigrant\ Song.mp3'
+
+alias s='sudo'
+
+alias c='clear'
+
+alias ll='ls -l'
+
+alias lsa='ls -a'
+
+alias cls='clear'
+
+alias cpl='cls && pwd && lsa'
+
+alias fucking='sudo'
+
+alias goodnight='sh ~/.bash_scripts/sleep.sh'
+
+alias die='sh ~/.bash_scripts/shutdown.sh'
+
+alias bye='die'
+
+alias bashrc='nano ~/.bashrc'
+
+alias profile='nano ~/.bash_profile'
+
+alias aliases='nano ~/.bash_aliases'
+
+alias al='aliases'
+
+alias space='df -h'
+
+alias fresh='c && source ~/.bash_profile && source ~/.bashrc && cd'
+
+alias commit='sh bin/bash/commit.sh'
+
+alias pull='git pull'
+
+alias push='git push'
+
+alias py='python3'
+
+alias py2='python2'
+
+alias insta='python /Users/ethanwilkins/Code/instagram-terminal-news-feed/start.py --color'
+
+alias parrot='curl parrot.live'
+
+alias rb_op_prec='cat /Users/ethanwilkins/.important_info/ruby_op_precedence'
+
+alias cdrails='cd ~/Code/rails'
+
+alias cdether=' cd ~/Code/Ethereum'
+
+alias cdbio='cd ~/Code/Processing/biopixels'
+
+alias org='c && cdorg && ruby init.rb'
+
+alias orb='c && irb'
+
+alias github='cd ~/Code/GitHub'
+
+alias rakes='rake db:migrate'
+
+alias routes='rake routes'
+
+alias migrate='rails g migration'
+
+alias railss='rails s'
+
+alias railc='c && rails c'
+
+alias irb='clear && irb'
+
+alias bun='bundle install --without production'
+
+alias news='cdrails && cd elheroe'
+
+alias simpl='cdrails && cd simplr && clear && pwd && lsa'
+
+alias anrchy='cdrails && cd anrcho'
+
+alias newss='news && railss'
+
+alias simplr='simpl && railss'
+
+alias si='simplr'
+
+alias anrchos='anrchy && railss'
+
+alias anrcho='ssh root@anrcho.com'
+
+alias om='sh ~/.the_special/om.sh'
+
+alias omco='simpl && commit'
+
+alias omrc='simpl && railc'
+
+alias eh='anrchy && sh bin/bash/fresh.sh'
+
+alias resume='anrchy && sh bin/bash/reset.sh && bundle install && rakes && anrchos'
+
+alias resume_roma='cdrails && cd roma && sh bin/bash/reset.sh && bundle install && rakes && rails s'
+
+alias play_log='sh ~/Code/rails/anrcho/bin/bash/play_log.sh'
+
+alias tilde='ssh -i ~/.ssh/tilde.town forrest@tilde.town'
+
+alias migrate='rails g migration'
+
+alias ip='ifconfig en1'
+
+alias stuff='cd ~/Pictures/stuff && mkdir'
